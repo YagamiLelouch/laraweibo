@@ -1,0 +1,311 @@
+@CHARSET "UTF-8";
+#main .main_left {
+    width:169px;
+    min-height:800px;
+    background:#f7f7f7;
+    padding:0 10px;
+    float:left;
+}
+#main .main_left .active {
+    background: #333;
+}
+
+#main .main_left .active a {
+    color: #eee;
+}
+#main .main_left ul {
+    text-align:center;
+    font-size:13px;
+    padding:20px 0 0 0;
+}
+#main .main_left ul li {
+    height:30px;
+    line-height:30px;
+    margin:0 0 2px 0;
+}
+#main .main_left ul li a {
+    display:block;
+    text-decoration:none;
+    color:#666;
+}
+#main .main_left ul li a:hover, #main .main_left ul li a.selected {
+    color: #4286F3;
+    background:#333;
+}
+#main .main_right {
+    width:730px;
+    min-height:800px;
+    background:#fff;
+    padding:0 20px;
+    border-left:1px solid #ddd;
+    float:right;
+}
+#main .main_right h2 {
+    font-size:14px;
+    color:#333;
+    margin:10px 0 0 0;
+    height:35px;
+    line-height:35px;
+    border-bottom:1px solid #ddd;
+}
+#main .main_right dl {
+    font-size:13px;
+    margin:5px 0 0 0;
+    color:#333;
+}
+#main .main_right dl dd {
+    padding:5px 0;
+}
+#main .main_right dl dd span {
+    vertical-align:76px;
+}
+#main .main_right dl dd input.text {
+    width:300px;
+    height:20px;
+    padding:5px;
+    border-radius:3px;
+    border:1px solid #ccc;
+    background:#fff;
+    font-size:13px;
+    color:#333;
+}
+#main .main_right dl dd textarea {
+    width:300px;
+    height:80px;
+    padding:5px;
+    border-radius:3px;
+    border:1px solid #ccc;
+    background:#fff;
+    color:#333;
+    font-size:13px;
+    resize:none;
+}
+#main .main_right dl dd input.submit {
+    width:80px;
+    margin:0 0 0 65px;
+}
+#main .main_right dl dd input.approve {
+    width:80px;
+    margin:0 0 0 65px;
+}
+#main .main_right dl dd input.register {
+    width:80px;
+}
+#main .main_right dl dd.a {
+    font-weight:bold;
+}
+#main .main_right dl dd.b {
+    font-weight:normal;
+}
+#main .main_right dl dd b.red {
+    cursor:pointer;
+    color:red;
+}
+#main .main_right dl dd b.green {
+    cursor:pointer;
+    color:green;
+    font-weight:normal;
+}
+#main .main_right p.face_info {
+    margin:10px 0;
+    color:#333;
+    font-size:13px;
+}
+#main .main_right .face {
+    position:relative;
+}
+#main .main_right .crop_preview {
+    position:absolute;
+    top:0;
+    right:0;
+    width:200px;
+    height:200px;
+    overflow:hidden;
+    display:none;
+}
+#main .main_right #file {
+    margin:10px 0 0 0;
+}
+#main .main_right .cancel {
+    background:url(images/ui-bg_glass_75_e6e6e6_1x400.png) !important;
+    color:#333 !important;
+}
+
+
+
+#main .weibo_content_data {
+    width:650px;
+    float:left;
+    padding:10px 0;
+}
+#main .weibo_content_data dt {
+    width:65px;
+    float:left;
+}
+#main .weibo_content_data dt img {
+    border:none;
+}
+#main .weibo_content_data dd {
+    width:585px;
+    float:right;
+}
+#main .weibo_content_data dd h4 {
+    padding:0 0 0 3px;
+}
+#main .weibo_content_data dd h4 a {
+    color:#049;
+    font-size:14px;
+    text-decoration:none;
+}
+#main .weibo_content_data dd p {
+    color:#555;
+    font-size:14px;
+    line-height:150%;
+}
+#main .weibo_content_data dd .img img {
+    display:block;
+    border:1px solid #eee;
+    cursor:pointer;
+    margin:10px 0 0 0;
+}
+#main .weibo_content_data dd .img_zoom {
+    background:#fafafa;
+    margin:10px 0 0 0;
+    border:1px solid #ccc;
+    border-radius:4px;
+}
+#main .weibo_content_data dd .img_zoom img {
+    display:block;
+    margin:0 auto 20px auto;
+    cursor:pointer;
+}
+#main .weibo_content_data dd .img_zoom ol {
+    height:35px;
+    line-height:35px;
+    font-size:13px;
+    padding:0 0 0 20px;
+}
+#main .weibo_content_data dd .img_zoom ol li {
+    float:left;
+    margin:0 10px 0 0;
+}
+#main .weibo_content_data dd .img_zoom ol li a {
+    color:#5e7c85;
+    text-decoration:none;
+}
+#main .weibo_content_data dd .img_zoom ol li.in {
+    background:url(../img/img_zoom_in.png) no-repeat left center;
+    padding:0 0 0 12px;
+}
+#main .weibo_content_data dd .img_zoom ol li.source {
+    background:url(../img/img_zoom_source.png) no-repeat left center;
+    padding:0 0 0 18px;
+}
+#main .weibo_content_data dd .imgs {
+    width:120px;
+    height:120px;
+    float:left;
+    border:1px solid #eee;
+    margin:10px 10px 0 0;
+    overflow:hidden;
+    position:relative;
+}
+#main .weibo_content_data dd .imgs img {
+    position:absolute;
+    top:0;
+    left:0;
+    cursor:pointer;
+}
+#main .weibo_content_data dd .footer {
+    height:35px;
+    line-height:35px;
+    font-size:13px;
+    color:#5e7c85;
+    border-bottom:1px solid #eee;
+    clear:both;
+}
+#main .weibo_content_data dd .footer .time {
+    float:left;
+}
+#main .weibo_content_data dd .footer .handler {
+    float:right
+}
+#main .weibo_content_data dd .footer a {
+    text-decoration:none;
+    color:#5e7c85;
+}
+#main .weibo_content_data dd .footer .re_com_box {
+    width:584px;
+    border:1px solid #ccc;
+    background:#fafafa;
+    border-radius:4px;
+    float:right;
+}
+#main .weibo_content_data dd .footer .re_com_box p {
+    text-align:right;
+    color:#5e7c85;
+    font-size:12px;
+    padding:10px 23px 0 0;
+}
+#main .weibo_content_data dd .footer .re_com_box .re_com_text {
+    width:520px;
+    height:80px;
+    background:#fff;
+    border:1px solid #ddd;
+    box-shadow:1px 1px 3px #dcdcdc inset;
+    resize:none;
+    padding:8px;
+    color:#666;
+    margin:5px 25px 0 25px;
+}
+#main .weibo_content_data dd .footer .re_com_box .re_button {
+    width:70px;
+    float:right;
+    margin:0 20px 10px 0;
+}
+#main .weibo_content_data dd .footer .re_com_box .com_button {
+    width:70px;
+    float:right;
+    margin:0 20px 10px 0;
+}
+#main .weibo_content_data dd .re_content {
+    margin:10px 0 0 0;
+    border:1px solid #ccc;
+    background:#fafafa;
+    border-radius:4px;
+    padding:10px;
+}
+#main .weibo_content_data dd .re_content p {
+    margin:5px 0 0 0;
+}
+#main .weibo_content_data dd a {
+    color:#049;
+    text-decoration:none;
+}
+#main .weibo_content_data .comment_content {
+    border-top:1px solid #eee;
+    width:100%;
+    padding:0 0 10px 0;
+    float:left;
+}
+#main .weibo_content_data .comment_content ol {
+    padding:5px 15px 0 15px;
+}
+#main .weibo_content_data .comment_content ol li {
+    line-height:200%;
+}
+#main .weibo_content_data .comment_content ol li.line {
+    border-bottom:1px solid #eee;
+    color:#999;
+}
+#main .weibo_content_data .comment_content ol li a {
+    color:#049;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,90 @@
+@CHARSET "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+}
+/*登录部分*/
+.login {
+	text-align: center;
+	position: absolute;
+	top: 35%;
+	left: 40%;
+}
+
+.login .input {
+	width: 200px;
+	height: 40px;
+	border-radius: 5px;
+	border: 1px solid red;
+	margin: 10px 0;
+}
+
+.login .button {
+	/*text-align: right;*/
+	margin: 0 0 10px 0;
+}
+
+.login .button input {
+	width: 200px;
+	height: 40px;
+	background: #3369e8;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+/*注册部分*/
+#register {
+	text-align: center;
+	position: absolute;
+	top: 35%;
+	left: 35%;
+}
+.register {
+	width: 400px;
+	height: 40px;
+	border-radius: 5px;
+	border: 1px solid red;
+	margin: 10px 0;
+}
+
+input[type=button] {
+	width: 400px;
+	height: 40px;
+	background: #3369e8;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.choose {
+	display: inline-block;
+	width: 200px;
+	height: 30px;
+	background: #6699CC;
+	cursor: pointer;
+}
+
+.error {
+	width: 400px;
+	height: 40px;
+	border-radius: 5px;
+	background: red;
+	margin: 10px 0;
+	float: right;
+	display: none;
+}
+
+#forget, #reset{
+	text-align: center;
+	position: absolute;
+	top: 35%;
+	left: 35%;
+}
+#forget .regInput, #reset .regInput {
+	width: 400px;
+	height: 40px;
+	border-radius: 5px;
+	border: 1px solid red;
+	margin: 10px 0;
+}
+
